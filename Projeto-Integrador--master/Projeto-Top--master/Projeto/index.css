@@ -1,0 +1,59 @@
+body {
+    height: 100vh;
+}
+form {
+    width: 300px;
+}
+input {
+    border: none;
+}
+button {
+    margin-bottom: 10px;
+}
+body {
+    background-color: #f0f0f0; /* Cor de fundo da página, você pode ajustar conforme necessário */
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.5); /* Adiciona uma sombra verde suave */
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #008000; /* Cor da borda verde */
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #008000;
+    cursor: pointer;
+}
+
+.clear {
+    background-color: #008000; /* Cor de fundo verde para o botão */
+}
+
+/* Adicione estilos para outros estados do botão se necessário (hover, focus, etc.) */
+
+.error {
+    color: #ff0000; /* Cor do texto de erro vermelho */
+}

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background: #4fef8f 
+}
+
+.centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+input,
+button {
+   padding: 10px;
+   width: -webkit-fill-available;
+}
+
+.loading {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.loading label {
+    font-size: 24px;
+}
+
+button {
+    cursor: pointer;
+}
+button:active {
+    opacity: 0.8;
+}
+button[disabled] {
+    opacity: 0.8;
+}
+
+.clear {
+    background: lightgreen;
+    border: none;
+    color: white;
+}
+.solid {
+    background: white;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+.outline {
+    background: #008000;
+    color: white;
+    border: 1px solid green(222, 5, 5);
+}
+
+.error {
+    background: red;
+    color: white;
+    display: none;
+} 
